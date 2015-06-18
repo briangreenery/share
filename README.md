@@ -14,3 +14,11 @@ no user authentication. Files are never cleaned up.
 
     $ bower update
     $ grunt
+
+## Deploy using Docker/Dokku
+
+This project can be deployed using the provided Dockerfile or can be deployed in dokku-alt using:
+
+```
+dokku clone share https://github.com/briangreenery/share.git
+```
